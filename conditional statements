@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a=prompt("Enter the score of 1st Player")
+        let b=prompt("Enter the score of 2nd Player")
+        if((a>300 || b>300) && a+b<500){
+            document.write("You are eligible to team up")
+        }else{
+            document.write("You are not eligible to team up")
+        }
+        //age=prompt("enter your age")
+        //name=prompt("enter your name")
+        //if(age<18){
+            //alert(name+ "you are too young to marry")
+        //}else if(age>35){
+            //alert(name + "you are too old to marry")
+        //}else{
+            //alert(name + "perfect to marry")
+        //}
+            //let a=5
+        //let b=10
+        //true codition
+        //if(a<b){
+            //document.write("hi dev","<br>")
+        //}else{
+           // document.write("Hari","<br>")
+        //}
+        //document.write("welcome to India","<br>")
+        //false condition
+        //if(a>b){
+            //document.write("hi dev","<br>")
+        //}
+            //document.write("welcome to India","<br>")
+    </script>
+</body>
+</html>
+
+
+Theory notes :
+Conditional Statements:
+To Make the set of Instructions (block of code) (conditional block) executed or skip based on the given condition is true
+used to decide whether the code has to be executed or skip basses on the given condition
+line-line (sequence)
+
+Block of code: - Set Of Instructions
+it will execute only when that specific condition is true
+condition:-an expression that evaluates an result(true or false)
+ex: - console.log (3>5)
+Methods:-
+•	If : only one possible condition.
+Syntax : if(condition){
+               -----code
+               }
+•	If-else
+•	Else if
+•	Switch
+•	Ternary operator
